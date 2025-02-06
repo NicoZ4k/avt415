@@ -6,8 +6,8 @@
 html {font-size: 100%;} /*16px*/
 
 body {
-  background-color: #b09bbd;
-  color: #181354;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/19fb6e206265431.66c95e6f0426d.jpg");
+  color: #FECD60;
   margin: 0;
   padding: 50px;
   line-height: 1.75;
@@ -29,4 +29,15 @@ margin-top: 0;
 dt {
 	font-size: 2em;
 	font-weight: bold;
+}
+a{
+	color: #FECD60;
+}
+a:visited {
+	color: #E66E01;
+}
+a:hover {
+	
+
+	color: #FEE8B8
 }
