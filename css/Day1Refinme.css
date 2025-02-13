@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: aquamarine;
+	font-size: 100%;
+	line-height: 1.6em;
+	/*if x=font size, em= 1.6x */
+	font-family: Georgia, serif
+}
+
+article{
+	margin: 5%; 
+	/*responsive with resizing webpage */ 
+}
+
+h1{ 
+	font-weight: 200;
+	color: rgb(77,77,77);
+	font-size: 2.8em;
+	line-height: 1.6em;
+	/* line height is based on parent size, because we edited the font size from 100% to 2.8em, copying the 1.6em specificially into h1 solved the leading problem */
+}
+
+p{
+	font-size: 1.2em;
+}
+
+#TOC{
+	background-color:#368455;
+	padding: 3% 5%;
+	/* if you have a background color padding inside margin outside. if you dont have a backgorund color it doesnt matter which one you use*/
+	margin-bottom: 40px;
+}
+
+li{
+	list-style: none;
+	
+}
+
+dt{
+  font-family: "Modak", serif; /*because we already embeded it into the html, we only have to refer to the font by its name*/
+  font-weight: 400;
+  font-style: normal;
+	font-size: 1.5em;
+}
+
+dd{
+	font-family: "salsero", serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-left: 0;
+	font-size: 1.5em;
+	padding-bottom: 20px;
+}
+
+.author{
+	font-size:1em;
+	color: #423E3E;
+}
+.date{
+	color:#AA660C;
+}
+/*class is defined by a . infront of it, while id is defined by a #*/
