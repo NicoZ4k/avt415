@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-image:url(https://i.pinimg.com/736x/6c/6a/17/6c6a1749bd99463bca710f55a1229f61.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 100%;
+	line-height: 1.6em;
+	font-family: "Noto Serif Hentaigana", serif;
+}
+.author{
+	font-famlily: "Monomakh", serif;
+	font-size: .9em;
+	font-style: italic;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+article{
+	margin: 5%;
+}
+
+.headline{
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center;
+	font-weight: 900;
+	font-family: "Monomakh", serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.subhead{
+	font-size: 3em;
+	text-align: center;
+	font-style: italic;
+	line-height: 1em;
+	font-weight: 200;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2{
+	
+	padding-top: 1.8em;
+	font-weight: 500;
+	font-size: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.summary{
+	font-weight: 200;
+	text-align: center;
+	font-style: italic;
+	font-size: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h3{
+	font-family: "Monomakh", serif;
+	font-size:1em;
+	line-weight:.6em;
+}
+
+p{
+	font-famlily: "Monomakh", serif;
+	font-size: .9em;
+	font-style: italic;
+}
+
+h4{
+	font-family: "Monomakh", serif;
+	font-size:1em;
+	line-weight:.6em;
+}
+
+.citation{
+	font-family: "Monomakh", serif;
+	font-size:.5em;
+}
+
+a{
+	color:slateblue;
+}
+
+a:hover{
+	color:mediumpurple;
+}
+
+a:acitve{
+	color:indigo;
+}
+
+a:visited{
+	color:darkslategray;
+}

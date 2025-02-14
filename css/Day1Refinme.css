@@ -1,11 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
 body {
-	background-color: aquamarine;
+	background-image: url("https://i.pinimg.com/736x/42/94/4b/42944b5e6b2be3e1389edb4ccc1c4ff2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-size: 100%;
 	line-height: 1.6em;
 	/*if x=font size, em= 1.6x */
-	font-family: Georgia, serif
+	font-family: "Nanum Pen Script";
 }
 
 article{
@@ -14,15 +17,18 @@ article{
 }
 
 h1{ 
-	font-weight: 200;
-	color: rgb(77,77,77);
+  font-family: "Delius Unicase", serif;
+  font-weight: 700;
+  font-style: normal;
+	color: #FCD88B;
 	font-size: 2.8em;
 	line-height: 1.6em;
 	/* line height is based on parent size, because we edited the font size from 100% to 2.8em, copying the 1.6em specificially into h1 solved the leading problem */
 }
 
 p{
-	font-size: 1.2em;
+	color:#6B53CF;
+	font-size: 2em;
 }
 
 #TOC{
@@ -45,11 +51,6 @@ dt{
 }
 
 dd{
-	font-family: "salsero", serif;
-	font-weight: 400;
-	font-style: normal;
-	margin-left: 0;
-	font-size: 1.5em;
 	padding-bottom: 20px;
 }
 
