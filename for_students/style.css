@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+	max-inline-size: 1440px;
+	margin-inline: auto;
+}
+#fullheight {
+  height: 100%;
+  background: yellow;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}	
+#recipe {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 1.2em;
+	padding-bottom: 20px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+footer {
+	background-color: aqua;
+}
+
+/* Small devices (portrait tablets and large phones, 480px and up) */
+@media only screen and (min-width: 480px) {
+  #recipe {background: green;
+	  	display: grid;
+	grid-template-columns: 1fr;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #recipe {background: blue;
+	  	display: grid;
+	  gap:15px;
+	grid-template-columns: 1fr 1fr;}
+} 
+
+/* Medium devices (landscape tablets, 1200px and up) */
+@media only screen and (min-width:1220px){
+	body{ height: 100%;}
+	#recipe {
+		background-color: blueviolet;
+		display:grid;
+	gap:30px;
+	grid-template-columns: 1fr 1.5fr;
+	}
+}
+	
+
+
+
+
+
+
