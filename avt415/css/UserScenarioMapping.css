@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-image: url("https://wallpaperaccess.com/full/10010416.png");
+	background-repeat: no-repeat;
+	background-size:auto;
+	color:aliceblue;
+	font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+}
+h1{
+	font-size: 5em;
+}
+
+h1:hover{
+	text-shadow: 0 0 20px #ffff;
+}
+
+h2{
+	font-size: 2em;
+	color: aquamarine;
+}
+
+h2:hover{
+	text-shadow: 0 0 20px #ffff;
+}
+p{
+	font-size:1.6em;
+}
